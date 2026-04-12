@@ -1,2 +1,5 @@
 *.css linguist-vendored
 *.html linguist-vendored
+obj/** linguist-generated
+bin/** linguist-generated
+.idea/** linguist-vendored
