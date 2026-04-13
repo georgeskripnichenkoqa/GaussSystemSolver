@@ -1,4 +1,4 @@
-﻿<Project Sdk="Microsoft.NET.Sdk.Razor">
+<Project Sdk="Microsoft.NET.Sdk.Razor">
 
     <PropertyGroup>
         <TargetFrameworks Condition="$([MSBuild]::IsOSPlatform('windows'))">$(TargetFrameworks);net9.0-windows10.0.19041.0</TargetFrameworks>
@@ -67,7 +67,11 @@
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\GaussSystemSolver.Core\GaussSystemSolver.Core.csproj" />
+      <ProjectReference Include="GaussSystemSolver.Core\GaussSystemSolver.Core.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Compile Remove="GaussSystemSolver.Core\**\*.cs" />
     </ItemGroup>
 
     <ItemGroup>
