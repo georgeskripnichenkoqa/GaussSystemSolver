@@ -1,4 +1,7 @@
-﻿namespace GaussSystemSolver;
+﻿using Microsoft.Maui;
+using Microsoft.Maui.Controls;
+
+namespace GaussSystemSolver;
 
 public partial class App : Application
 {

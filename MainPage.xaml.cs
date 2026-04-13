@@ -1,4 +1,6 @@
-﻿namespace GaussSystemSolver;
+﻿using Microsoft.Maui.Controls;
+
+namespace GaussSystemSolver;
 
 public partial class MainPage : ContentPage
 {
