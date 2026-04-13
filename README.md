@@ -6,7 +6,13 @@
 
 A modern web-based calculator for solving systems of linear equations using the **Gaussian Elimination** method. This project bridges rigorous mathematical backend logic with an experimental "Nuclear UI."
 
+## Visual Preview
 
+<p align="center">
+  <img src="docs/preview.jpg" alt="GaussSystemSolver main screen" width="900" />
+</p>
+
+<p align="center"><i>Main application screen</i></p>
 
 ## 🚀 About the Project
 
@@ -20,6 +26,16 @@ This application automates the process of solving Systems of Linear Algebraic Eq
 
 ### 📐 Mathematical Note
 The solver utilizes a standard **Gaussian Elimination** algorithm. It is designed to find **one of the possible solutions** for a given system. Please note that for systems with infinite solutions (dependent systems), the algorithm will return a specific solution based on the row-reduction outcome.
+
+
+<p align="center">
+  <img src="docs/demo.gif" alt="GaussSystemSolver demo" width="900" />
+</p>
+
+<p align="center"><i>Quick demo</i></p>
+
+
+
 
 ## 🛠 Tech Stack
 
